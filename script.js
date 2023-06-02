@@ -22,6 +22,9 @@ anychart.onDocumentReady(function () {
     chart.yAxis().stroke('#545f69');
     chart.yAxis().ticks().stroke('#545f69');
     chart.yScale().ticks().set([0, 1, 2, 3]);
+
+    chart.xAxis().labels().fontSize(16);
+    chart.yAxis().labels().fontSize(16);
     
 
     chart.xGrid().stroke({
