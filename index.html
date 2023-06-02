@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fighter Stats</title>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-radar.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chart-container"></div>
+    <div class="menu">
+        <div class="controls">
+            <div class="stat-control" id="damageSliderContainer">
+                <p>Damage</p>
+                <input type="range" min="0" max="3" value="2" class="slider" id="Damage">
+            </div>
+
+            <div class="stat-control" id="healthSliderContainer">
+                <p>Health</p>
+                <input type="range" min="0" max="3" value="2" class="slider" id="Health">
+            </div>
+
+            <div class="stat-control" id="speedSliderContainer">
+                <p>Speed</p>
+                <input type="range" min="0" max="3" value="2" class="slider" id="Speed">
+            </div>
+
+            <div class="stat-control" id="closeSliderContainer">
+                <p>Close-Range</p>
+                <input type="range" min="0" max="3" value="2" class="slider" id="Close">
+            </div>
+
+            <div class="stat-control" id="longSliderContainer">
+                <p>Long-Range</p>
+                <input type="range" min="0" max="3" value="2" class="slider" id="Long">
+            </div>
+
+            <div class="stat-control" id="comboSliderContainer">
+                <p>Combo-Potential</p>
+                <input type="range" min="0" max="3" value="2" class="slider" id="Combo">
+            </div>
+
+            <div class="reset-container">
+                <button id="resetButton">Reset</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
